@@ -1,0 +1,25 @@
+.form { 
+    display: flex; 
+    flex-direction: column; 
+    gap: 12px; 
+    max-width: 400px; 
+}
+.input { 
+    padding: 12px; 
+    border: 1px solid #d1d5db; 
+    border-radius: 8px; 
+    font-size: 1rem; 
+}
+.submitBtn { 
+    padding: 14px; 
+    background: #111827; 
+    color: white; 
+    border: none; 
+    border-radius: 8px; 
+    font-size: 1.1rem; 
+    cursor: pointer; 
+}
+.submitBtn:disabled { 
+    background: #9ca3af;
+    cursor: not-allowed; 
+}
