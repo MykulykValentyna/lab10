@@ -1,0 +1,28 @@
+.selectorContainer { 
+    margin-bottom: 24px; 
+}
+.title { 
+    font-size: 1.2rem; 
+    margin-bottom: 12px; 
+}
+.wagonList { 
+    display: flex; 
+    gap: 12px; 
+    flex-wrap: wrap; 
+}
+.wagonBtn { 
+    padding: 10px 16px; 
+    border: 1px solid #d1d5db; 
+    border-radius: 8px; 
+    background: white; 
+    cursor: pointer; 
+    transition: 0.2s; 
+}
+.wagonBtn:hover { 
+    border-color: #3b82f6; 
+}
+.wagonBtn.active { 
+    background: #3b82f6;
+    color: white; 
+    border-color: #3b82f6; 
+}
